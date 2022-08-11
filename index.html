@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Encriptador de texto</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="https://kit.fontawesome.com/7a93f8c7d6.js" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+	<main>
+		<br>
+		<div class="alert" id="alert">
+			Solo letras minúsculas y sin acentos
+		</div>
+		<div class="container">
+			<div class="wrapper">
+				<div class="text-input">
+					<textarea spellcheck="false" id="textin" class="textin"
+						placeholder="Ingresa aquí el texto"></textarea>
+					<textarea spellcheck="false" readonly id="textout" class="textout"
+						placeholder="Texto encriptado/desencriptado"></textarea>
+				</div>
+				<div class="buttons">
+					<button id="btnencriptar" class="buttons-disable">Encriptar</button>
+					<button id="btndesencriptar" class="buttons-disable">Desencriptar</button>
+					<button id="btncopiar" class="buttons-disable">Copiar</button>
+				</div>
+			</div>
+		</div>
+		<div class="info-autor">
+			<p>Creado con el <i class="fa fa-heart heart" aria-hidden="true"></i> por
+				<a href="https://github.com/JPichardo99" target="_blank"><i class="fa fa-github" aria-hidden="true"></i>
+					Jesús Pichardo
+				</a>
+			</p>
+		</div>
+	</main>
+	<script src="js/index-scrollreveal.js"></script>
+	<script src="js/index.js"></script>
+</body>
+
+</html>
