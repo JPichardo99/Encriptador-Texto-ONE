@@ -20,6 +20,7 @@ body {
   padding: 20px;
   background-color: #ff6961;
   color: white;
+  font-size: 14px;
   margin-bottom: 15px;
   border-radius: 7px;
   box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
@@ -89,7 +90,7 @@ body {
   resize: none;
   background: none;
   font-size: 14px;
-  padding: 10px 15px;
+  padding: 10px 20px;
   border-radius: 5px;
 }
 
@@ -120,9 +121,9 @@ body {
   padding: 14px;
   outline: none;
   margin-top: 10px;
-  margin-left: 8px;
+  margin-left: 5px;
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: 12px;
   border-radius: 5px;
 }
 .buttons-style{
@@ -145,7 +146,7 @@ body {
 
 /*información del autor*/
 .info-autor {
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   width: 100%;
   padding: 30px;
   text-align: center;
@@ -154,15 +155,11 @@ body {
 .info-autor > p {
   font-style: normal;
   font-weight: 800;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 150%;
   border: none;
   color: #0a3871;
   padding: 10px;
-}
-
-.heart {
-  color: red;
 }
 
 .info-autor > p > a {
